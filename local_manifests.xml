@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="github" fetch="https://github.com/" />
+
+<project path="device/xiaomi/vermeer" name="android_device_xiaomi_vermeer" remote="github" revision="InfinityX" />
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="github" revision="14" />
+<project path="vendor/xiaomi/camera" name="ThankYouMario/proprietary_vendor_xiaomi_camera" remote="gitlab" revision="uvite-sm8550" />
+<project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="github" revision="14" />
+<project name="deivce/xiaomi/vermeer-kernel" name="device_xiaomi_vermeer-kernel" remote="github" revision="14" />
+<project path="hardware/xiaomi" name="hardware/xiaomi" remote="github" revision="14" />
+<project path="hardware/qcom-caf/sm8550/gps" name="android_hardware_qcom-caf_sm8550_gps" remote="github" revision="14" />
+<project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common" remote="github" revision="14" />
+</manifest>
